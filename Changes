@@ -1,0 +1,20 @@
+Revision history for Perl extension File::Find::Duplicates.
+
+0.04  2001-06-23
+        - First CPAN release
+        - Now copes with looking multiple directories.
+        - Added tests. 
+
+0.03  2001-01-05
+        - implemented suggestion by Randal Schwartz to pass a closure
+          to File::Find
+ 
+0.02  2001-01-04
+	- turned into module
+
+0.01  2001-01-01
+        - do MD5 checksums. Posted to PerlMonks
+
+0.001 1994ish
+        - wrote original clumsy perl4 version
+
