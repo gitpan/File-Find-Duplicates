@@ -1,7 +1,5 @@
 package File::Find::Duplicates;
 
-package File::Find::Duplicates;
-
 =head1 NAME
 
 File::Find::Duplicates - Find duplicate files
@@ -54,7 +52,7 @@ use vars qw($VERSION @ISA @EXPORT);
 
 @ISA     = qw/Exporter/;
 @EXPORT  = qw/find_duplicate_files/;
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 sub find_duplicate_files {
   my (%dupes, %files);
