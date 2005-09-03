@@ -1,5 +1,9 @@
 Revision history for Perl extension File::Find::Duplicates.
 
+1.00  Sat Sep  3 20:45:37 UTC 2005
+  - Report properly on groups of dupes with same filelength (RT#9813)
+  This requires a completely different data structure to be returned.
+
 0.05  2001-07-11
         - Fix-up for test to work under solaris
            (thanks to Jost Krieger)
